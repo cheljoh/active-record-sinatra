@@ -11,7 +11,7 @@ Dir.glob(File.join(APP_ROOT, 'app', 'controllers', '*.rb')).each { |file| requir
 Dir.glob(File.join(APP_ROOT, 'app', 'models', '*.rb')).each { |file| require file }
 
 # require database configurations
-require File.join(APP_ROOT, 'config', 'database')
+require File.join(APP_ROOT, 'config', 'database') #database is talking about database.rb
 
 # configure TaskManagerApp settings
 class FilmFile < Sinatra::Base

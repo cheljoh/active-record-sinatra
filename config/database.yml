@@ -1,6 +1,6 @@
 # specify which database and adapter to use for which environment
 
-development:
+development: #used by rake tasks, knows what database to use, defaults to development
   adapter: sqlite3
   database: db/film-file-development
 

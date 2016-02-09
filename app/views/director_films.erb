@@ -1,0 +1,9 @@
+<h1>Director Films</h1>
+
+<div id="directors">
+  
+  <% @director.films.each do |film| %>
+    <h1><%= film.title %></h1>
+  <% end %>
+
+</div>

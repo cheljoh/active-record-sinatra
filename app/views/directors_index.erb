@@ -1,0 +1,10 @@
+<h1>All Directors</h1>
+
+<div id="directors">
+  <% @directors.each do |director| %>
+    <h1><%= director.title %></h1>
+    <% director.films.each do |film| %>
+      <h3><%= film.title %></h3>
+    <% end %>
+  <% end %>
+</div> 
