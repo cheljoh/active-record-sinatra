@@ -11,4 +11,6 @@ group :development, :test do
   gem 'minitest'
   gem 'tux' #pry-like session
   gem 'capybara'
+  gem 'rack-test'
+  gem 'database_cleaner'
 end
